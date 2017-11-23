@@ -22,16 +22,6 @@ app.post('/api/results', function(req, res, next) {
   var qdestination = req.query.destination || 'DXB';
   var qcategory = req.query.category || 'life';
   console.log("Here");
-  try {
-    console.log(_.where(offers.offpoints, {city:qdestination}));
-  
-    var result = { "status": offers.status,
-        "offpoints": _.where(offers.offpoints, {city:qdestination})             
-      };
-  } catch (error) {
-    console.log(error.message);    
-  }
-   
   res.send(offers);
 });
 
