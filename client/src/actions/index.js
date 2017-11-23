@@ -11,11 +11,10 @@ export const loginUser = (data) => {
     }
 };
 
-export const getResults = (data) => {
+export const getResults = () => {
     return function(dispatch) {
-        console.log("datapas" + data['destination']);
         axios
-            .post('/api/results?destination=' + data['destination']+'&category=' + data['category'] , data)
+            .get('/api/results')
             .then(res => dispatch({ type: GET_RESULTS, payload: res.data}));
     }
 };
