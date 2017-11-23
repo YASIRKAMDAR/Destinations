@@ -31,12 +31,12 @@ class Results extends React.Component {
                                 <Card>
                                     <CardBody>
                                         <Row>
-                                            <Col sm="6">
+                                            <Col sm="12"  xs="12" md="6" lg="6">
                                             <p className="price text-left">{result.title}</p>
                                             <p className="name text-left">{result.calloutsummary}</p>
                                             </Col>
-                                            <Col sm="6">
-                                                <img src={"https://www.emirates.com/"+ result.thumbnail}/>
+                                            <Col sm="12"  xs="12" md="6" lg="6">
+                                                <img src={"https://www.emirates.com/"+ result.thumbnail} className="img-fluid"/>
                                             </Col>  
                                         </Row>                                          
                                     </CardBody>
