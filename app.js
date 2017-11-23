@@ -19,9 +19,7 @@ app.post('/api/login', function(req, res, next) {
 
 /* GET Login request. */
 app.post('/api/results', function(req, res, next) {
-  var qdestination = req.query.destination || 'DXB';
-  var qcategory = req.query.category || 'life';
-  console.log(offers);
+  console.log('/api/results called' );
   res.send(offers);
 });
 
