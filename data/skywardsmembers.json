@@ -1,0 +1,27 @@
+{
+    "status": "OK",
+    "Members": [
+        {
+         "activeCard": "00999993466",
+         "tier": "blue"
+        },
+        {
+         "activeCard": "00999993467",
+         "tier": "silver"
+        },
+        {
+         "activeCard": "00999993469",
+         "tier": "gold"
+        },
+         {
+         "activeCard": "00999993468",
+         "tier": "io"
+        },
+       
+        {
+         "activeCard": "00999993468",
+         "tier": "platinum"
+        }
+       
+    ]
+}

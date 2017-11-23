@@ -1,0 +1,237 @@
+nav 
+{
+    background-color: #333;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 54px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.HeaderBlock {
+    background-color: #333;
+}
+nav input:focus::-webkit-input-placeholder { color:#05549f; }
+nav input:focus:-moz-placeholder { color:#05549f; } /* FF 4-18 */
+nav input:focus::-moz-placeholder { color:#05549f; } /* FF 19+ */
+nav input:focus:-ms-input-placeholder { color:#05549f; } /* IE 10+ */
+nav .input-group-btn {
+    background-color: #f0f7fe;
+    padding-left: 5px; 
+    padding-right: 5px; 
+    margin-left: 150px;
+    height: 36px;
+}
+.pw0 {
+    padding-left: 0px !important; 
+    padding-right: 0px !important;  
+}
+.ph0 {
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;  
+}
+.pa0 {
+    padding: 0px !important; 
+}
+nav input.form-control {
+    width: 0px !important;
+    position: absolute !important;
+    z-index: -1 !important;
+    opacity: 0 !important;
+}
+nav .input-group-btn img:hover {
+    cursor: pointer;
+}
+nav input.form-control:active, nav input.form-control:focus,  nav input.form-control:hover,  nav .input-group-btn img:hover + input {
+    width: 150px !important;
+    position: absolute !important;
+    z-index: 0 !important;
+    opacity: 1 !important;
+    margin-left: -149px;
+}
+#LoginBlock .card {
+    border: 2px solid #f6f6f6;
+}
+
+.container.bodySection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.paymentMethodBlock {
+    cursor: pointer;
+}
+@media (max-width: 575px) { 
+     .container {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+   /* nav .input-group-btn {
+        margin-left: 50px !important;
+    } 
+    nav input.form-control:active, nav input.form-control:focus,  nav input.form-control:hover,  nav .input-group-btn img:hover + input {
+        width: 50px !important;
+        margin-left: -49px !important;
+    }*/
+    
+}
+@media (min-width: 576px) { 
+    .container {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+   /*  nav .input-group-btn {
+        margin-left: 50px !important;
+    }
+    nav input.form-control:active, nav input.form-control:focus,  nav input.form-control:hover,  nav .input-group-btn img:hover + input {
+        width: 50px !important;
+        margin-left: -49px !important;
+    } */
+}
+
+@media (min-width: 768px) { 
+    /* nav .input-group-btn {
+        margin-left: 80px;
+    }
+    nav input.form-control:active, nav input.form-control:focus,  nav input.form-control:hover,  nav .input-group-btn img:hover + input {
+        width: 80px !important;
+        margin-left: -79px;
+    } */
+}
+.paymentBlock {
+    padding: 15px 20px;
+    color: #333;
+    background-color: #f7f7f7;
+    border: 1px solid #c7c7c7;
+    margin: 20px 0;
+
+}
+.paymentBlock .card {
+    background-color: #f7f7f7;
+    color: #333;
+}
+@media (min-width: 992px) { 
+    
+ }
+
+@media (min-width: 1200px) { 
+    
+ }
+
+#LoginBlock .card .card-body {
+    padding: 20px 40px;
+}
+.search-button button, .search-button input, .search-button input:focus, .search-button input:active   {
+    background-color: #f0f7fe; 
+    border: none;
+}
+#LoginBlock h4.card-title {
+    color: #414141;
+}
+#LoginBlock h6.card-subtitle {
+    color: #333333;
+}
+/*input label animation*/
+#LoginBlock label.helper-label {
+    position: absolute;
+    margin-top: -30px;
+    z-index: -1;
+    margin-left: 12px;
+    color: #414141;
+}
+
+#LoginBlock input:focus ,
+#LoginBlock input:active,
+#LoginBlock select:focus ,
+#LoginBlock select:active {
+    border-color: #05549f;
+    box-shadow: 0px 0 2px 3px #f0f7fe;
+}
+
+#LoginBlock input:focus + label.helper-label,
+#LoginBlock input:active + label.helper-label,
+#LoginBlock select:focus + label.helper-label,
+#LoginBlock select:active + label.helper-label {
+    z-index: 0;
+    margin-top: -70px;
+    margin-left: 0px;
+    animation-name: showLabel;
+    animation-duration: .4s;
+
+}
+#LoginBlock input:focus::-webkit-input-placeholder { color:transparent; }
+#LoginBlock input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+#LoginBlock input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+#LoginBlock input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+/*
+#LoginBlock input::-webkit-input-placeholder { color:#f6f6f6; }
+#LoginBlock input:-moz-placeholder { color:#f6f6f6; }
+#LoginBlock input::-moz-placeholder { color:#f6f6f6; } 
+#LoginBlock input:-ms-input-placeholder { color:#f6f6f6; }   */
+
+@keyframes showLabel {
+    0%   {
+        margin-top: -30px; 
+        z-index: 0;
+        margin-left: 12px;
+    }
+    100% {
+        margin-top: -70px;
+        margin-left: 0px;
+        z-index: 0;
+    }
+}
+#LoginBlock .form-check-label{
+    color: #414141;;
+} 
+#LoginBlock button {
+    background-color: #05549f; 
+}
+#resultsBlock .col {
+    margin-top: 20px; 
+}
+#LoginBlock button:focus {
+    box-shadow: 0 0 0 3px rgba(5,84,159,0.2);
+}
+#LoginBlock a {
+    color: #05549f;
+}
+.error-message {
+    display: none;
+}
+.error .error-message {
+    background-color: #fff0f1;
+    display: block;
+    color: #f6303f;
+}
+#LoginBlock .form-group.error {
+    margin-top: 10px;
+}
+#LoginBlock .form-group {
+    margin-top: 34px; 
+}
+#LoginBlock .form-group .row {
+    margin-right: 3px;
+    margin-left: 0px;
+}
+#LoginBlock .error input, #LoginBlock .error input:focus, #LoginBlock .error input:active {
+    border-color: #f6303f;
+    
+}
+#LoginBlock .error input:focus, #LoginBlock .error input:active {
+    box-shadow: 0px 0 2px 3px #fff0f1;
+}
+/*results block*/
+#resultsBlock p.name {
+    color: #414141;
+}
+#resultsBlock p.price {
+    color: #000000;
+}
+#LoginBlock {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 1px solid #f6f6f6;
+}
+#resultsBlock .price {
+    font-weight: bold;
+}
